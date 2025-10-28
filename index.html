@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>舞台大屏抽奖游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 背景层 -->
+    <div class="background"></div>
+    
+    <!-- 初始状态：中央文字 -->
+    <div class="initial-text" id="initialText">
+        <h1>五十六个民族要像石榴籽一样紧紧抱在一起</h1>
+    </div>
+    
+    <!-- 抽奖区域 -->
+    <div class="lottery-container" id="lotteryContainer">
+        <div class="lottery-grid" id="lotteryGrid">
+            <!-- 56个数字将通过JavaScript动态生成 -->
+        </div>
+    </div>
+    
+    <!-- 底部控制按钮 -->
+    <div class="control-panel">
+        <button class="start-button" id="startButton">开始抽奖</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
